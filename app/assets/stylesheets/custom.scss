@@ -1,0 +1,109 @@
+/*****************************************************************************************/
+/*****************************************************************************************/
+/******************************* CSS for Project *****************************************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
+
+@media only screen and (max-width: 992px) {
+    #head{
+		margin-top:12%;
+	}
+}
+
+#head{
+	
+}
+.jj{
+	
+}
+
+body { 
+    background: url('banner.jpg') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width:100%;
+} 
+html{
+	width:100%;
+}
+
+
+
+/*************************** Nav bar Setting *********************************************/
+
+.navbar{
+  min-height:50px;
+  opacity:0.9;
+}
+#img_logo{
+	height:70px;
+	width:150px;
+	padding:10px;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #cd853e;
+}
+
+#navbar_font_handle{
+	font-size:1.2em;
+	margin-top:13px;
+}
+
+.navbar #navbar_font_handle li a{
+color:#d7ccc8;
+}
+/**********************************Log In/SignUp Window **********************************************/
+#logIn {
+top:20%;
+outline: none;
+}
+#signUp{
+top:20%;
+outline: none;
+}
+/********************************** Body Pannels **********************************************/
+
+#Home_images label{
+	color:#ffffff;
+}
+
+#Home_images .row{
+	padding:-10px;
+}
+
+#panel_home_images img{
+	width:100%;
+	height:30%;
+	max-width:100%;
+	max-height:100%;
+}
+
+#panel_home_images h4{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+/********************************* Search Bar ************************************************/
+
+.text_center{
+	text-align:center;
+}
+
+.icon-input-btn{
+    display: inline-block;
+    position: relative;
+    }
+.icon-input-btn input[type="submit"]{
+    padding-left: 2em;
+    }
+.icon-input-btn .glyphicon{
+    display: inline-block;
+    position: absolute;
+    left: 0.65em;
+    top: 30%;
+}
